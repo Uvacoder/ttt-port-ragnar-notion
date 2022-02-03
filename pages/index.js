@@ -22,16 +22,16 @@ export default function Home() {
           <Image src={Image1} layout='fill'/>
         </div>
         <div className={styles.textBox}>
-          <p>Hi, I'm</p>
+          <p>Hi, I&apos;m</p>
           <p className={styles.title}><span>HASIR</span> MUSHTAQ.</p>
           <div className={styles.svgImage}>
             <Image src={svgImage} layout='fixed'/>
           </div>
           <div className={styles.contentBox}>
             <p>I was born and raised in <span >Jammu & Kashmir, India.</span></p>
-            <p>I’m a student at the</p>
+            <p>I&apos;m a student at the</p>
             <p><span>International Institute of Information Technology, Hyderabad.</span></p>
-            <p>I’m interested in <span>Computers, Philosophy, Design,</span> ... basically</p>
+            <p>I&apos;m interested in <span>Computers, Philosophy, Design,</span> ... basically</p>
             <p><span>anything that captivates my curiosity.</span></p>
             <br/>
             <p><span>I am always excited to explore new territories,<br/> so feel free to drop a message.</span></p>
