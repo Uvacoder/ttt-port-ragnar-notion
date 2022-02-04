@@ -87,6 +87,10 @@
     right: 2rem;
   }
 
+  .navLeft {
+    left: 2rem;
+  }
+
   .nav p {
     margin-right: 20px;
   }
