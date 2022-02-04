@@ -30,7 +30,6 @@
   position: absolute;
   top: -80px !important;
   overflow: visible;
-  z-index: 9999;
 }
 
 .contentBox {
@@ -58,7 +57,7 @@
 
 .footer p {
   color: white;
-  font-size: 17px;
+  font-size: 17px !important;
 }
 
 .footerText {

@@ -1,0 +1,23 @@
+.main {
+    height: 100vh;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.Image404 {
+    max-width: 50vw !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgImage {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
