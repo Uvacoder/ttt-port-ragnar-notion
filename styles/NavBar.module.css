@@ -90,4 +90,8 @@
   .nav p {
     margin-right: 20px;
   }
+
+  .goToHomePage {
+    margin-left: 2rem
+  }
 }
