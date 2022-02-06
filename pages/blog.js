@@ -23,7 +23,7 @@ export default function Home() {
                         <div className={styles.sticky}>2022</div>
                     </div>
                     <div className={styles.postPreviews}>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/how-the-notion-api-powers-my-blog">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>How the Notion API Powers My Blog</h2>
@@ -35,7 +35,7 @@ export default function Home() {
                                 <span className={styles.tags}>Rust</span>
                             </div>
                         </div>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/detecting-dark-mode-with-react-hooks">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>Detecting Dark Mode With React Hooks</h2>
@@ -55,7 +55,7 @@ export default function Home() {
                         <div className={styles.sticky}>2022</div>
                     </div>
                     <div className={styles.postPreviews}>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/how-the-notion-api-powers-my-blog">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>How the Notion API Powers My Blog</h2>
@@ -67,7 +67,7 @@ export default function Home() {
                                 <span className={styles.tags}>Rust</span>
                             </div>
                         </div>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/detecting-dark-mode-with-react-hooks">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>Detecting Dark Mode With React Hooks</h2>
@@ -87,7 +87,7 @@ export default function Home() {
                         <div className={styles.sticky}>2022</div>
                     </div>
                     <div className={styles.postPreviews}>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/how-the-notion-api-powers-my-blog">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>How the Notion API Powers My Blog</h2>
@@ -99,7 +99,7 @@ export default function Home() {
                                 <span className={styles.tags}>Rust</span>
                             </div>
                         </div>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/detecting-dark-mode-with-react-hooks">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>Detecting Dark Mode With React Hooks</h2>
@@ -119,7 +119,7 @@ export default function Home() {
                         <div className={styles.sticky}>2022</div>
                     </div>
                     <div className={styles.postPreviews}>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/how-the-notion-api-powers-my-blog">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>How the Notion API Powers My Blog</h2>
@@ -131,7 +131,7 @@ export default function Home() {
                                 <span className={styles.tags}>Rust</span>
                             </div>
                         </div>
-                        <div class="jsx-d42a7f8d69150d8e">
+                        <div>
                             <Link href="/blog/detecting-dark-mode-with-react-hooks">
                                 <div className={styles.postPreviewLink}>
                                     <h2 className={styles.title}>Detecting Dark Mode With React Hooks</h2>
