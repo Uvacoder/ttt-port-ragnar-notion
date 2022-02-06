@@ -13,7 +13,7 @@ return(
     <nav>
         {props.placeAtRight && (<Link href="/"><p className={styles.goToHomePage}><span>Hasir</span> Mushtaq.</p></Link>)}
         <div className={`${styles.nav} ${positioning}`}>
-           <p className={styles.underline}><span className={styles.internalLink}>Blog</span></p>
+           <Link href="/blog"><p className={styles.underline}><span className={styles.internalLink}>Blog</span></p></Link>
            <p className={styles.highlight}><a href="https://github.com/ragnar48h">GitHub</a></p>
            <p className={styles.highlight}><a href="mailto:hasir.mushtaq48@gmail.com">Email</a></p>
         </div>
