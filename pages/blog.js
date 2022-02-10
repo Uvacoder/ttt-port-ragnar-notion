@@ -30,6 +30,7 @@ export default function Home() {
                             <div className={styles.postPreviews}>
                                 {val[Object.keys(val)[0]]?.map((blog) => (
                                     <BlogPostShell
+                                        key={blog.title}
                                         title={blog.title}
                                         subtitle={blog.subtitle}
                                         tags={blog.tags}

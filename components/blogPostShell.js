@@ -5,7 +5,7 @@ import styles from '../styles/Blog.module.css'
 const BlogPostShell = (props) => {
     // console.log(props.url)
 return( 
-    <div>
+    <div key={props.title}>
         <Link href={props.url}>
             <div className={styles.postPreviewLink}>
                 <p className={styles.title}>{props.title}</p>
