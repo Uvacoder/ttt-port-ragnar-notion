@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import styles from '../styles/Home.module.css'
-import NavBarShell from '../components/navBar'
-import svgImage from '../public/1ffe674.svg'
 import Image1 from '../public/image1.png'
+import NavBarShell from '../components/navBar'
+import styles from '../styles/Home.module.css'
+import svgImage from '../public/1ffe674.svg'
 
 export default function Home() {
   return (

@@ -1,0 +1,134 @@
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4em;
+    margin-bottom: 30vh;
+}
+  
+.main p {
+    color: #8F9BA8;
+}
+
+.titleBlog {
+    font-size: 24px !important;
+}
+
+.titleBlog p {
+    color: #8F9BA8 !important;
+}
+
+.titleBlog span {
+    color: white !important;
+}
+
+.titleBox {
+    position: relative;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.title {
+  font-size: 24px !important;
+  color: white !important;
+}
+
+.svgImage {
+    position: absolute;
+    left: -300px !important;
+    top: 30px !important;
+    overflow: visible;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.globalMargin {
+    margin: 5vw 0;
+    font-size: 19px;
+}
+
+.postGroup {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+    display: grid;
+}
+
+.postYear {
+    line-height: 0;
+}
+
+.subtitle {
+    color: #8F9BA8;
+    margin-top: -15px;
+    font-size: 24px !important;
+}
+
+.postPreviews {
+    grid-column: span 3;
+    grid-gap: 40px;
+    display: grid;
+    margin-top: -35px;
+}
+
+.postPreviewLink {
+    cursor: pointer;
+}
+
+.sticky {
+    font-size: 24px !important;
+}
+
+.tagsList {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tags {
+    background: rgba(255, 255, 255, 0.08) !important;
+    padding: 8px 12px !important;
+    font-size: 12px !important;
+    border-radius: 6px !important;
+    margin-right: 10px !important;
+    color:#8F9BA8;
+    font-size: 19px !important;
+}
+
+@media screen and (min-width: 800px){
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 60px;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 800px){
+    .main {
+        padding: 0 2em;
+    }
+
+    .globalMargin {
+        margin: 60px 0;
+    }
+
+    .svgImage {
+        position: absolute;
+        width: 60vw;
+        left: 10vw !important;
+        top: 10px !important;
+        overflow: visible;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    .postGroup {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .postPreviews {
+        display: grid;
+        grid-gap: 30px;
+        margin-top: 0px;
+    }
+}

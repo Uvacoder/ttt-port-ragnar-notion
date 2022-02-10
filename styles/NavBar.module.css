@@ -8,12 +8,31 @@
 }
 
 .navRight {
-    right: 100px;
+    right: 4rem;
+}
+
+.goToHomePage {
+  position: absolute;
+  top: 40px;
+  margin-top: 0;
+  color: #8F9BA8;
+  font-size: 19px;
+  margin-left: 4rem;
+  cursor: pointer;
+  transition: color 0.6s;
+}
+
+.goToHomePage:hover {
+  color: white;
+}
+
+.goToHomePage span {
+  color: white;
 }
   
 .nav p {
   color: #8F9BA8;
-  font-size: 17px;
+  font-size: 19px !important;
   display: inline;
   margin-right: 55px;
   cursor: pointer;
@@ -56,5 +75,27 @@
     left: 0;
     right: auto;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .navRight span {
+    display: none;
+  }
+
+  .navRight {
+    right: 2rem;
+  }
+
+  .navLeft {
+    left: 2rem;
+  }
+
+  .nav p {
+    margin-right: 20px;
+  }
+
+  .goToHomePage {
+    margin-left: 2rem
   }
 }
