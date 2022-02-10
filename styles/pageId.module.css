@@ -30,6 +30,10 @@
     border-radius: 8px;
 }
 
+.notionRen figcaption{
+    color: #8F9BA8;
+}
+
 .notionRen pre{
     background-color: #0F0E0E;
     border: 1px solid #1b1f23;
@@ -41,6 +45,6 @@
 
 @media screen and (max-width: 800px){
     .notionRen {
-        padding: 0 1.5rem;
+        padding: 0 1rem;
     }
 }

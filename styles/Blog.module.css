@@ -10,6 +10,18 @@
     color: #8F9BA8;
 }
 
+.titleBlog {
+    font-size: 24px !important;
+}
+
+.titleBlog p {
+    color: #8F9BA8 !important;
+}
+
+.titleBlog span {
+    color: white !important;
+}
+
 .titleBox {
     position: relative;
     margin-top: 30vh;
@@ -18,10 +30,7 @@
 
 .title {
   font-size: 24px !important;
-}
-
-.title span {
-    color: white;
+  color: white !important;
 }
 
 .svgImage {
@@ -56,7 +65,7 @@
 
 .postPreviews {
     grid-column: span 3;
-    grid-gap: 60px;
+    grid-gap: 40px;
     display: grid;
     margin-top: -35px;
 }
@@ -120,5 +129,6 @@
     .postPreviews {
         display: grid;
         grid-gap: 30px;
+        margin-top: 0px;
     }
 }
