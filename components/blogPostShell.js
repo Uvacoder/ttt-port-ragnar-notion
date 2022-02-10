@@ -14,7 +14,7 @@ return(
         </Link>
         <div className={styles.tagsList}>
             {props.tags.map((tag) => (
-                <span className={styles.tags}>{tag}</span>
+                <span key={tag} className={styles.tags}>{tag}</span>
             ))}
         </div>
     </div>
